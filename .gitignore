@@ -1,0 +1,11 @@
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+.nb-gradle/
+nbproject/
+build.xml
+manifest.mf
+test/
+ErrorLog.txt

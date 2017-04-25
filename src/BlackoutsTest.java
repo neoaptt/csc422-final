@@ -37,7 +37,7 @@ public class BlackoutsTest {
 
             System.out.println("Date Due: " + dueDate);
 
-            System.out.println("Fine Amount: $ " + b.calculateFine(todayDate, dueDate));
+            System.out.println("Fine Amount: $ " + b.calculateFine(sdf.parse("2017/04/23 11:44"), sdf.parse("2017/04/21 11:45")));
         } catch (Exception ex) {
         }
 
